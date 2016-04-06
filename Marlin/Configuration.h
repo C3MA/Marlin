@@ -35,7 +35,7 @@
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 //#define STRING_SPLASH_LINE2 STRING_DISTRIBUTION_DATE // will be shown during bootup in line 2
 
-#define STRING_VERSION_CONFIG_H __DATE__ "2016-03-28 16:26" __TIME__ // build date and time
+#define STRING_VERSION_CONFIG_H __DATE__ "2016-04-06 16:18" __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "C3MA RepMan" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
@@ -487,7 +487,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {46.299,43.521,2642.4242,760*1.1*2.5*0.834}  // default steps per unit for RepMan3.2
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {43.521,43.521,2642.4242,760*1.1*2.5*0.834}  // default steps per unit for RepMan3.2
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 2.5, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,50,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
